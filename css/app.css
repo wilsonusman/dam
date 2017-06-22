@@ -1,0 +1,28 @@
+.menu a {
+    font-size: 0.85rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.menu a:hover {
+    background: rgba(0, 0, 0, 0.05);
+}
+
+.nested li a {
+    font-size: .85rem;
+    color: #717171;
+    -webkit-transition: color 0.3s ease;
+    transition: color 0.3s ease;
+}
+
+.nested li a:hover {
+    color: #0a0a0a;
+    -webkit-transition: color 0.3s ease;
+    transition: color 0.3s ease;
+}
+
+#addButton {
+    float: right;
+    padding-right: 50px;
+}
+
